@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.olegsagenadatrytwo.splashwithotherrandomstuff.TimerActivity">
+
+    <TextView
+        android:id="@+id/timerValue"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <Button
+        android:id="@+id/startButton"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:text="start"/>
+    <Button
+        android:id="@+id/pauseButton"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:text="pause"/>
+
+    <fragment
+        android:id="@+id/frTimerText"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:name="com.olegsagenadatrytwo.splashwithotherrandomstuff.TimerFragmentTextView"/>
+    <fragment
+        android:id="@+id/frTimerButtons"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:name="com.olegsagenadatrytwo.splashwithotherrandomstuff.TimerButtonsFragment"/>
+
+</LinearLayout>

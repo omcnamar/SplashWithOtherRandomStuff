@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_view_pdf"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_picture_as_pdf"
+        app:showAsAction="ifRoom|withText"
+        android:title="PDF"/>
+
+    <item
+        android:id="@+id/action_show_image_dialog"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_image_dialog"
+        app:showAsAction="ifRoom|withText"
+        android:title="Image Dialog"/>
+
+    <item
+        android:id="@+id/action_dialog_default"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_default_dialog"
+        app:showAsAction="ifRoom|withText"
+        android:title="Default Dialog"/>
+
+    <item
+        android:id="@+id/action_dialog_custom"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_custom_dialog"
+        app:showAsAction="ifRoom|withText"
+        android:title="Custom Dialog"/>
+
+    <item
+        android:id="@+id/action_dialog_array"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_view_array"
+        app:showAsAction="ifRoom|withText"
+        android:title="Custom Dialog"/>
+
+    <item
+        android:id="@+id/action_message"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_message"
+        app:showAsAction="ifRoom|withText"
+        android:title="message"/>
+
+    <item
+        android:id="@+id/action_notification"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_notifications"
+        app:showAsAction="ifRoom|withText"
+        android:title="notification"/>
+
+    <item
+        android:id="@+id/action_timer"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_timer"
+        app:showAsAction="ifRoom|withText"
+        android:title="timer"/>
+
+</menu>

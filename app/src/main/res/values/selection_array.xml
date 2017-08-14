@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="list">
+        <item>One</item>
+        <item>two</item>
+        <item>three</item>
+    </string-array>
+    <array name="icons">
+        <item>@drawable/ic_star_full</item>
+        <item>@drawable/ic_star_half</item>
+        <item>@drawable/ic_star_empty</item>
+    </array>
+    <array name="colors">
+        <item>#FFFF0000</item>
+        <item>#FF00FF00</item>
+        <item>#FF0000FF</item>
+    </array>
+</resources>
